@@ -1,5 +1,5 @@
 # Almundo Test
-Prueba para (almundo)[https://almundo.com.co/] en **ReactJS**
+Prueba para [almundo](https://almundo.com.co/) en **ReactJS**
 
 **En este repositorio está incluido el servidor y el cliente**
 
@@ -7,20 +7,20 @@ Prueba para (almundo)[https://almundo.com.co/] en **ReactJS**
 * La aplicación web, tiene persistencia de datos y de archivos a través de `localStorage` y `Service Workers` respectivamente. Para el caso del `Service Workers` solo para producción y dominios SSL.
 * Filtra por nombre o por número de estrellas los hoteles
 * Componentes creados con clases `es6` y creados como funciones
-* El servidor, si no tiene la configuración inicial para una base de datos local usa el archivo _data.json_ del directorio raíz
-* Del lado del servidor se puede usar tanto una base de datos **mysql** como el archivo _data.json_ para trabajar con los datos. Para usar la base de datos es necesario tener una tabla llamada `hotels` con iguales parámetros que en el archivo _data.json_
+* El servidor. Si no tiene la configuración inicial para una base de datos o falla la conexión se usa el archivo _data.json_ del directorio raíz
+* Para usar la base de datos es necesario tener una tabla llamada `hotels` con iguales parámetros que en el archivo _data.json_
 
 ## Instalación y ejecución
 ### En ambiente de desarrollo
-* `git clone`
-* `cd ${name-repo}`
+* `git clone https://github.com/fortil/test-almundo`
+* `cd test-almundo`
 * `yarn` o `npm i`
 * `yarn start` o `npm start`
 El client (aplicación web) correrá en el puerto `3000` y el servidor (en _express_) correrá en el puerto `8080`
 
 ### En ambiente de producción
-* `git clone`
-* `cd ${name-repo}`
+* `git clone https://github.com/fortil/test-almundo`
+* `cd test-almundo`
 * `yarn` o `npm i`
 * `yarn run build` o `npm run build`
 

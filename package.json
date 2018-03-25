@@ -1,0 +1,43 @@
+{
+  "name": "almundotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"react-scripts start\"",
+    "build": "cross-env NODE_ENV=production react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "cross-env NODE_ENV=development react-scripts test"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "free-style": "^2.5.1",
+    "material-ui": "^0.20.0",
+    "mysql": "^2.15.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-free-style": "^7.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.1.4",
+    "enzyme": "^3.3.0",
+    "jsdoc": "^3.5.5",
+    "react-addons-test-utils": "^15.6.2",
+    "react-scripts": "^1.1.1",
+    "redux-logger": "^3.0.6"
+  }
+}
